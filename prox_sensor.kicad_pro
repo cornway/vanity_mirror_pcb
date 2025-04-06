@@ -143,7 +143,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -778,6 +778,10 @@
     [
       "c7a69e2a-1737-423f-8ec2-47bf6b5b87b3",
       "STHS34PF80TR"
+    ],
+    [
+      "7a84920f-36d6-4cc4-99b6-ae3fc4d300dd",
+      "VEML7700-TR"
     ]
   ],
   "text_variables": {}
