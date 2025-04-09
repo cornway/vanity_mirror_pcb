@@ -2077,6 +2077,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 45.72) (xy 151.13 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49bbb60d-59ec-4fed-a96d-254b84d29f7a")
+	)
+	(wire
+		(pts
 			(xy 101.6 73.66) (xy 101.6 77.47)
 		)
 		(stroke
@@ -2274,6 +2284,16 @@
 			(type default)
 		)
 		(uuid "7c0c3d2c-6af3-4c23-95c9-02a87b46fe22")
+	)
+	(wire
+		(pts
+			(xy 193.04 38.1) (xy 212.09 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e7731f9-7a3f-4737-8c58-9458cefb2e40")
 	)
 	(wire
 		(pts
@@ -2487,6 +2507,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 35.56) (xy 199.39 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b31150e7-87fe-4987-98b5-75bf6f94d54c")
+	)
+	(wire
+		(pts
 			(xy 158.75 115.57) (xy 165.1 115.57)
 		)
 		(stroke
@@ -2574,6 +2604,16 @@
 			(type default)
 		)
 		(uuid "d2af8468-758f-446a-8aff-f9b81ca13cf9")
+	)
+	(wire
+		(pts
+			(xy 146.05 48.26) (xy 163.83 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e986ea-44cc-475b-b8bb-28c7195ee7a0")
 	)
 	(wire
 		(pts
@@ -4432,7 +4472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00091cd4-ea47-4224-aba6-e968735072e5")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR010"
 			(at 109.22 36.83 0)
 			(effects
 				(font
@@ -4482,7 +4522,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "#PWR045")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4497,7 +4537,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17bf7556-5870-47c7-9185-37d92e69eed6")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR013"
 			(at 200.66 67.31 0)
 			(effects
 				(font
@@ -4547,7 +4587,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "#PWR036")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4700,7 +4740,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c439412-b047-4bf3-a5c4-4475e81b8894")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 222.25 96.774 90)
 			(effects
 				(font
@@ -4861,7 +4901,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5230,7 +5270,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e5137b4-fb5e-4d42-b757-0a462b5696f7")
-		(property "Reference" "C22"
+		(property "Reference" "C2"
 			(at 64.516 52.324 90)
 			(effects
 				(font
@@ -5393,7 +5433,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "C22")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5409,7 +5449,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fa21ba7-a54d-4a45-a499-c539aadc5941")
-		(property "Reference" "R18"
+		(property "Reference" "R2"
 			(at 195.58 96.774 90)
 			(effects
 				(font
@@ -5570,7 +5610,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "R18")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5585,7 +5625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "305319ce-4521-47c9-a6fa-e98d3114aec8")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR014"
 			(at 208.28 67.31 0)
 			(effects
 				(font
@@ -5635,7 +5675,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "#PWR07")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5652,7 +5692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bdf63a9-e9b2-4cc9-bb8c-1c03284b4017")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR06"
 			(at 58.42 119.38 0)
 			(effects
 				(font
@@ -5703,7 +5743,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "#PWR048")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5718,7 +5758,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4799c4ce-771f-43dc-a6ee-027ffc35b7a8")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR09"
 			(at 101.6 77.47 0)
 			(effects
 				(font
@@ -5768,7 +5808,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "#PWR050")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5785,7 +5825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f94e90c-a898-4065-8ee8-4f6bb51fb1ac")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR02"
 			(at 35.56 167.64 0)
 			(effects
 				(font
@@ -5836,7 +5876,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "#PWR056")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5852,7 +5892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5399a9f4-3b77-46f6-934f-acc9418b94a0")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR08"
 			(at 82.55 66.04 0)
 			(effects
 				(font
@@ -5903,7 +5943,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "#PWR012")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6027,7 +6067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6386c1d3-f562-4948-85d6-2dbc155d1b72")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR04"
 			(at 46.99 88.9 0)
 			(effects
 				(font
@@ -6078,7 +6118,281 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "#PWR049")
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 168.91 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69b63d12-8a65-428b-8962-92b890b516dc")
+		(property "Reference" "J4"
+			(at 171.45 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "K"
+			(at 171.45 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 168.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DEV"
+			(at 168.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 168.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 168.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 168.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Impedance" ""
+			(at 168.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 168.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 168.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 168.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 168.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c7f2120-0afe-4381-adc5-38d5a70dac50")
+		)
+		(instances
+			(project "prox_sensor"
+				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 204.47 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b3ee475-a241-4210-af79-a82d1c50cf83")
+		(property "Reference" "J8"
+			(at 207.01 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A"
+			(at 207.01 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 204.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DEV"
+			(at 204.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 204.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 204.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 204.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Impedance" ""
+			(at 204.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 204.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 204.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 204.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 204.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de817983-6eb1-4eac-ae30-d5481ea74546")
+		)
+		(instances
+			(project "prox_sensor"
+				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -6093,7 +6407,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c2ab69a-7f72-4ea3-9bd3-d7908b1f122a")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR015"
 			(at 218.44 67.31 0)
 			(effects
 				(font
@@ -6143,7 +6457,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "#PWR037")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6159,7 +6473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72eb4575-fac1-49c1-bca9-4ea77e7df16d")
-		(property "Reference" "R20"
+		(property "Reference" "R3"
 			(at 204.47 96.774 90)
 			(effects
 				(font
@@ -6320,7 +6634,144 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "R20")
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 156.21 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78d2e49f-5ff4-4cb0-9946-4af429d13507")
+		(property "Reference" "J3"
+			(at 158.75 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A"
+			(at 158.75 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 156.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DEV"
+			(at 156.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 156.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 156.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 156.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Impedance" ""
+			(at 156.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 156.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 156.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 156.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 156.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f8e7bd3-d939-4042-b34f-7e34491b23ec")
+		)
+		(instances
+			(project "prox_sensor"
+				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6335,7 +6786,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a2fa2c3-e2b3-458d-a9ba-c4a2e598a427")
-		(property "Reference" "C23"
+		(property "Reference" "C3"
 			(at 111.506 52.324 90)
 			(effects
 				(font
@@ -6498,7 +6949,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "C23")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6514,7 +6965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ea734fd-d1bd-4b12-8170-b7a2ae58227a")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR05"
 			(at 55.88 36.83 0)
 			(effects
 				(font
@@ -6564,7 +7015,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "#PWR02")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6717,7 +7168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aeb96ad3-c162-40a1-ad2b-a054dd2ef00e")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR03"
 			(at 46.99 64.77 0)
 			(effects
 				(font
@@ -6768,7 +7219,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "#PWR011")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6783,7 +7234,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af8afb61-3c8f-464c-a70b-5051afa46497")
-		(property "Reference" "J9"
+		(property "Reference" "J6"
 			(at 271.78 149.8599 0)
 			(effects
 				(font
@@ -6905,7 +7356,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "J9")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -6921,7 +7372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcc6b9ea-121d-407f-9da2-f500824465a4")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 212.09 96.774 90)
 			(effects
 				(font
@@ -7082,7 +7533,144 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "R2")
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 217.17 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0d06831-7a3a-41fe-85e9-61d5aebbe9ad")
+		(property "Reference" "J9"
+			(at 219.71 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "K"
+			(at 219.71 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 217.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DEV"
+			(at 217.17 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 217.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 217.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 217.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Impedance" ""
+			(at 217.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 217.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 217.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 217.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 217.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81edad43-30bd-4a7d-b50a-4e01a5f5bbe3")
+		)
+		(instances
+			(project "prox_sensor"
+				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -7098,7 +7686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0dea625-356a-4593-b656-df47ee7a73f8")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR07"
 			(at 62.23 64.77 0)
 			(effects
 				(font
@@ -7149,7 +7737,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "#PWR046")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7165,7 +7753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0e86de6-bf1e-4876-a0a7-810caa65c184")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR011"
 			(at 109.22 64.77 0)
 			(effects
 				(font
@@ -7216,7 +7804,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "#PWR047")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7231,7 +7819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c39a9799-c3a8-4448-98b2-980845c64292")
-		(property "Reference" "C24"
+		(property "Reference" "C1"
 			(at 43.434 75.692 0)
 			(effects
 				(font
@@ -7394,7 +7982,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "C24")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -7683,7 +8271,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d28b10c2-f4b7-44a5-9100-83fa711165a9")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 271.78 135.8899 0)
 			(effects
 				(font
@@ -7805,7 +8393,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -7822,7 +8410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8fe2e07-6eab-4962-b1d6-76a0014b3bc8")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR01"
 			(at 33.02 104.14 0)
 			(effects
 				(font
@@ -7873,7 +8461,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "#PWR057")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7889,7 +8477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3611c1f-663e-47e8-9d89-a1c9adc55ffc")
-		(property "Reference" "U6"
+		(property "Reference" "U2"
 			(at 82.55 26.67 0)
 			(effects
 				(font
@@ -8059,7 +8647,7 @@
 		(instances
 			(project ""
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "U6")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8074,7 +8662,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdeecba6-b2dd-4b7f-97d5-2781cfce0af3")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR012"
 			(at 191.77 67.31 0)
 			(effects
 				(font
@@ -8124,7 +8712,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
-					(reference "#PWR024")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8387,6 +8975,77 @@
 		)
 	)
 	(sheet
+		(at 177.8 29.21)
+		(size 15.24 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c383466c-c754-4d27-b589-f85e884ef01b")
+		(property "Sheetname" "TPS61165_B"
+			(at 177.8 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LED-Driver-CC.kicad_sch"
+			(at 171.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LEDA" output
+			(at 193.04 35.56 0)
+			(uuid "9d55b164-e503-4cfb-b158-38723d27d93b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LEDK" input
+			(at 193.04 38.1 0)
+			(uuid "d1bd7a8c-bed3-4e0b-9201-fcb31ef7d64e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_DRV_CTRL" input
+			(at 177.8 43.18 180)
+			(uuid "178eb121-99af-413d-8297-c2a6026dfae9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "prox_sensor"
+				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 132.08 149.86)
 		(size 26.67 21.59)
 		(exclude_from_sim no)
@@ -8459,6 +9118,77 @@
 		)
 	)
 	(sheet
+		(at 130.81 39.37)
+		(size 15.24 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d998cc98-bbae-4acb-a979-e8a4326d62ac")
+		(property "Sheetname" "TPS61165_G"
+			(at 130.81 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LED-Driver-CC.kicad_sch"
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LEDA" output
+			(at 146.05 45.72 0)
+			(uuid "2029f1de-d2dd-4dc1-8b71-949fa3528d5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LEDK" input
+			(at 146.05 48.26 0)
+			(uuid "13f2b0b9-9d97-4dbb-94c2-9d1559bb9920")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_DRV_CTRL" input
+			(at 130.81 53.34 180)
+			(uuid "81f3fafd-63fb-4dbc-95ae-9e31681a0c5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "prox_sensor"
+				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 224.79 137.16)
 		(size 15.24 19.05)
 		(exclude_from_sim no)
@@ -8473,7 +9203,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d99b5f2f-0228-47be-85b3-de9bfd376eab")
-		(property "Sheetname" "TPS61165"
+		(property "Sheetname" "TPS61165_R"
 			(at 224.79 136.4484 0)
 			(effects
 				(font

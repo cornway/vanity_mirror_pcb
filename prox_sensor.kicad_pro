@@ -773,7 +773,7 @@
     ],
     [
       "d99b5f2f-0228-47be-85b3-de9bfd376eab",
-      "TPS61165"
+      "TPS61165_R"
     ],
     [
       "c7a69e2a-1737-423f-8ec2-47bf6b5b87b3",
@@ -782,6 +782,14 @@
     [
       "7a84920f-36d6-4cc4-99b6-ae3fc4d300dd",
       "VEML7700-TR"
+    ],
+    [
+      "d998cc98-bbae-4acb-a979-e8a4326d62ac",
+      "TPS61165_G"
+    ],
+    [
+      "c383466c-c754-4d27-b589-f85e884ef01b",
+      "TPS61165_B"
     ]
   ],
   "text_variables": {}

@@ -1012,7 +1012,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39f3eb9c-29ce-43f3-83d1-eeb9a129c96a")
-		(property "Reference" "C16"
+		(property "Reference" "C8"
 			(at 159.004 74.168 90)
 			(effects
 				(font
@@ -1175,7 +1175,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41/61bea680-b05a-452c-a186-15fdfa8712c0"
-					(reference "C16")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -1190,7 +1190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d71067f-946e-4b49-b522-870d7bed0a4e")
-		(property "Reference" "C13"
+		(property "Reference" "C7"
 			(at 150.368 77.216 90)
 			(effects
 				(font
@@ -1353,7 +1353,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41/61bea680-b05a-452c-a186-15fdfa8712c0"
-					(reference "C13")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -1368,7 +1368,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e160425-b631-406f-bbeb-97a13b65389a")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR027"
 			(at 187.96 63.5 0)
 			(effects
 				(font
@@ -1418,7 +1418,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41/61bea680-b05a-452c-a186-15fdfa8712c0"
-					(reference "#PWR021")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -1434,7 +1434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e2d6713-b8b7-4611-aa9e-5fae1eaf2d02")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR026"
 			(at 157.48 82.55 0)
 			(effects
 				(font
@@ -1485,7 +1485,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41/61bea680-b05a-452c-a186-15fdfa8712c0"
-					(reference "#PWR034")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -1501,7 +1501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b084b06e-25e7-4f62-8f46-fae8a28a9c82")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 148.59 82.55 0)
 			(effects
 				(font
@@ -1552,7 +1552,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41/61bea680-b05a-452c-a186-15fdfa8712c0"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -1568,7 +1568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd89b091-b713-4180-af46-d81c090a90d0")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR024"
 			(at 138.43 119.38 0)
 			(effects
 				(font
@@ -1619,7 +1619,7 @@
 		(instances
 			(project "prox_sensor"
 				(path "/72306bb1-8a24-469b-bdd7-d5938b058a41/61bea680-b05a-452c-a186-15fdfa8712c0"
-					(reference "#PWR020")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
