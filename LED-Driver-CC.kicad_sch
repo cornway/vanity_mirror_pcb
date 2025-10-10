@@ -1644,6 +1644,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C116159"
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d906cd27-5230-4276-8191-b0cf94f894fd")
 		)
@@ -2445,6 +2454,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2858406"
+			(at 127 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a148821d-06c0-4d95-a37d-51ed8cc20904")
 		)
@@ -2791,6 +2809,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C58756"
 			(at 130.81 97.79 0)
 			(effects
 				(font
